@@ -1,0 +1,18 @@
+From: Junyeop Kim <junyeop_kim@tmax.co.kr>
+Date: Fri, 15 Oct 2021 16:09:21 +0900
+Subject: make app compulsory
+
+---
+ data/org.gnome.DiskUtility.appdata.xml.in | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/data/org.gnome.DiskUtility.appdata.xml.in b/data/org.gnome.DiskUtility.appdata.xml.in
+index e506c7b..be98b30 100644
+--- a/data/org.gnome.DiskUtility.appdata.xml.in
++++ b/data/org.gnome.DiskUtility.appdata.xml.in
+@@ -36,4 +36,5 @@
+   <url type="donation">https://www.gnome.org/friends/</url>
+   <url type="help">https://help.gnome.org/users/gnome-help/stable/disk.html</url>
+   <url type="translate">https://wiki.gnome.org/TranslationProject</url>
++  <compulsory_for_desktop>GNOME</compulsory_for_desktop>
+ </component>
